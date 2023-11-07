@@ -1,0 +1,166 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+body {
+    font-family: 'Sora', sans-serif;
+    background: #CCFF00;
+    height: 100vh;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 100px;
+    margin-left: 96px;
+    margin-right: 96px;
+}
+
+.header__logo {
+    display: inline-flex;
+    align-items: center;
+    height: auto;
+}
+
+.header__logo-img {
+    width: 34px;
+    height: 34px;
+}
+
+.header__logo-text {
+    color: black;
+    font-size: 32px;
+    margin-left: 8px;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+
+.header__nav-item {
+    margin-right: 24px;
+    margin-left: 24px;
+    display: flex;
+    align-items: center;
+}
+.header__nav-item-link:active,
+.header__nav-item-link:hover,
+.header__nav-item-link {
+    text-decoration: none;
+    font-size: 16px;
+    color: #121212;
+}
+
+.header__nav-item-link-activate {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+.header__nav-item-chevron {
+    margin-left: 2px;
+}
+
+.header__auth {
+    display: flex;
+    align-items: center;
+}
+
+.header__auth-login {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 16px;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline: inherit;
+    font-weight: 500;
+}
+
+.header__auth-started {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 16px;
+    padding: 10px 16px;
+    border-radius: 99px;
+    border: none;
+    outline: inherit;
+    background: white;
+    margin-left: 24px;
+    font-weight: 500;
+}
+
+.main {
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle, rgba(241,232,17,1) 0%, rgba(224,252,109,0.58) 25%, rgba(224,252,109,0) 40%), url(../img/snow.png) repeat-x bottom, url(../img/tree.png) no-repeat left 89px bottom, url(../img/tree.png) no-repeat right 52px bottom;
+}
+
+.main__content {
+}
+
+.main__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__text-header {
+    margin-bottom: 30px;
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+    width: 65%;
+    color: #121212;
+}
+
+.main__text-subtitle {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.81);
+    text-align: center;
+    width: 65%;
+}
+
+.main__buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.main__buttons-started {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 16px;
+    padding: 16px 35px;
+    border-radius: 99px;
+    border: none;
+    outline: inherit;
+    background: white;
+    margin-left: 24px;
+    font-weight: 500;
+}
+
+.main__buttons-learn {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 16px;
+    padding: 16px 35px;
+    border-radius: 99px;
+    border: #141414 1px solid;
+    outline: inherit;
+    background: none;
+    margin-left: 24px;
+    display: inline-flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.main_buttons-learn-arrow {
+    margin-left: 6px;
+}
+
